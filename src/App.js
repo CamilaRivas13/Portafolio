@@ -30,7 +30,7 @@ export const App = () => {
         <TechExperience experience={'Estudiante'} tech={'CSS'} />
         <TechExperience experience={'Estudiante'} tech={'JS'} />
         <TechExperience experience={'Estudiante'} tech={'REACT'} />
-        <TechExperience experience={'Estudiante'} tech={'Agilidad'} />
+
       </div>
 
       <div>
