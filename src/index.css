@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #151515;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.un  {
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(#fe7cd8, #fe7cd8);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s; /*change after the size immediately*/
+  }     
+  
+   div.container:hover h1.un{
+
+        background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 5px;
+    
+    
+  }
